@@ -1,0 +1,21 @@
+.list-item{
+    color: red;
+}
+form{
+    border: 2px solid black;
+    width: 300px;
+    height: 500px;
+    position: block;
+    margin-left: auto;
+    margin-right:auto ;
+    padding: 20px;
+}
+form h2{
+    text-align: center;
+}
+.row input:required{
+    background-color: rgb(215, 225, 253,0.8);
+}
+.row input:focus{
+    background-color: rgb(65, 105, 225,0.8);
+}
