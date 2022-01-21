@@ -1,3 +1,4 @@
+
 .list-item{
     color: red;
 }
@@ -19,6 +20,14 @@ form h2{
 .row input:focus{
     background-color: rgb(65, 105, 225,0.8);
 }
+.container{
+    display: flex;
+    grid-row: 2;
+    margin: 100px;
+}
+.NOS img{
+    height: 260px;
+}
 .monster img{
     width: 300px;
     height: 300px;
@@ -30,4 +39,12 @@ form h2{
 .redbull img{
     width: 300px;
     height: 300px;
+}
+.headin{
+    text-align: center;
+    background-color: rgb(80, 148, 148);
+    padding: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:block;
+    top: 0
 }
